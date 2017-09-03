@@ -1,0 +1,135 @@
+
+body{
+	font-family: 'Lato', sans-serif;
+	color: #b7acc4;
+	font-weight: 300; /*  inherited properties */
+	text-align:center;
+
+
+}
+img {
+	max-width: 100% !important;
+	position:relative;
+	
+
+}
+
+p {
+	color: #585060;
+	font-weight: 300;
+
+}
+
+
+
+h1 {
+	color: #b7acc4;
+	font-weight: 300;
+	font-size: 17px;
+	letter-spacing: 10px;
+	margin-right:10px;
+
+	
+
+
+
+}
+
+ul.nav.navbar-nav {
+  width: 100%;
+  text-align:center;
+  vertical-align: middle;
+
+
+
+}
+
+li {
+  width: 100%;
+  text-align: center;
+  vertical-align:middle;
+
+
+
+}
+
+
+ div .col-md-4 {
+	margin-botton:0px;
+	position:static;
+	text-align:center;
+	padding-top:inherit;	
+}
+
+
+
+header#head{
+	text-align:center;
+	margin-top: 3%;
+	max-height:50%;
+    margin-left:5%;
+    margin-right:5%;
+    vertical-align:text-bottom;
+   
+   
+}
+
+img.title-logo {
+
+	max-width:100%;
+    max-height: 200px;
+    margin-botton: 55px;
+
+}
+
+
+
+#mainimage img {
+	max-width: 100%;
+	height: auto;
+	margin-botton:15px;
+
+	
+
+
+}
+
+
+#container {
+	margin: 0 auto;
+	max-width: 18000px; /*  really big width, for responsiveness */
+	display: flex;
+	background-color: #F5E3E0;
+}
+
+.text-muted{
+	color:#8C8888;
+}
+.text-thin{
+	font-weight: 100;
+}
+
+
+.title-logo{
+	margin-top: auto;
+	max-width:inherit;
+	max-height:inherit;
+
+}
+
+.scaling-svg-container {
+ position: relative; 
+ height: 0; 
+ width: 100%; 
+ padding: 0;
+ padding-bottom: 100%; 
+ padding-top:100%;
+ /* override this inline for aspect ratio other than square */
+}
+.scaling-svg {
+ position: absolute; 
+ height: 100%; 
+ width: 100%; 
+ left: 0; 
+ top: 0;
+}
