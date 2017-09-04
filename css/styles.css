@@ -1,99 +1,94 @@
-
 body{
 	font-family: 'Lato', sans-serif;
 	color: #b7acc4;
 	font-weight: 300; /*  inherited properties */
 	text-align:center;
 
-
 }
-img {
-	max-width: 100% !important;
-	position:relative;
-	
 
-}
+
 
 p {
 	color: #585060;
-	font-weight: 300;
+	font-weight: 500;
 
 }
-
 
 
 h1 {
-	color: #b7acc4;
-	font-weight: 300;
+	color: #555171;
+	/*font-weight: 300;
 	font-size: 17px;
 	letter-spacing: 10px;
-	margin-right:10px;
-
-	
-
+	margin-right:10px; */
 
 
 }
 
-ul.nav.navbar-nav {
+.navbar {
   width: 100%;
+  height: 120px;
+  width: 100%; /* Full width */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
   text-align:center;
-  vertical-align: middle;
-
-
-
-}
-
-li {
-  width: 100%;
-  text-align: center;
-  vertical-align:middle;
-
-
-
+  margin-top: 20px;
+  margin-bottom:10px;
+  padding-top: 0px;
+  padding-bottom:10px;
+ 
 }
 
 
- div .col-md-4 {
-	margin-botton:0px;
-	position:static;
-	text-align:center;
-	padding-top:inherit;	
-}
+/* Links inside the navbar */
 
-
-
-header#head{
-	text-align:center;
-	margin-top: 3%;
-	max-height:50%;
-    margin-left:5%;
-    margin-right:5%;
-    vertical-align:text-bottom;
-   
-   
-}
-
-img.title-logo {
-
-	max-width:100%;
-    max-height: 200px;
-    margin-botton: 55px;
-
-}
-
-
-
-#mainimage img {
-	max-width: 100%;
-	height: auto;
-	margin-botton:15px;
-
+.navbar li {
+	display:inline;
+	color:aliceblue;
 	
 
+}
+
+
+.navbar a {
+    display: inline-block;
+    width:100%;
+    text-align:center;
+    margin:0 auto;
 
 }
 
+.navbar h1{
+	font-weight:300;
+	text-align:center;
+	margin-top: 25%;
+	margin-botton: 25%;
+	font-size: 30px;
+
+}
+
+
+div #main-img {
+	width:80%;
+	height:max-content;
+	margin-bottom:10px;
+	margin-top:10px;
+	display:block;
+	position:relative;
+	background-color:antiquewhite
+
+
+	
+}
+
+main {
+	background-color:aliceblue;
+	height: 400px;
+	width: 100%;
+
+}
 
 #container {
 	margin: 0 auto;
@@ -111,25 +106,11 @@ img.title-logo {
 
 
 .title-logo{
-	margin-top: auto;
-	max-width:inherit;
-	max-height:inherit;
-
-}
-
-.scaling-svg-container {
- position: relative; 
- height: 0; 
- width: 100%; 
- padding: 0;
- padding-bottom: 100%; 
- padding-top:100%;
- /* override this inline for aspect ratio other than square */
-}
-.scaling-svg {
- position: absolute; 
- height: 100%; 
- width: 100%; 
- left: 0; 
- top: 0;
+	width:100%;
+	height: 100px;
+	margin-top:inherit;
+	margin-bottom:auto;
+	display: inline;
+    justify-content: center;
+    
 }
