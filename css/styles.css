@@ -257,3 +257,35 @@ textarea {
 	box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.05);
 	text-decoration:none;
 }
+
+
+/*  FONT AWESOME ICONS*/
+
+
+.fa-li {
+
+	display:inherit;
+    font-size:30px;
+    margin:inherit;
+
+}
+
+.fa-behance {
+	margin: 40px;
+	position:inherit;
+	float:right;
+}
+
+.fa-github {
+	margin:40px;
+	position:inherit;
+	float:right;
+}
+
+
+.fa-pinterest {
+	margin:40px;
+	position:inherit;
+	float:right;
+
+}
