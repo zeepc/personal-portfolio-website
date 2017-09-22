@@ -39,28 +39,27 @@ font-family: 'Roboto', sans-serif;
 
 
 #zp {
-	
-	text-align:left;
 	font-weight:500;
 	font-size:xx-large;
 	text-decoration:none;
 	font-family: 'megrim';
-	color:rgba(41, 22, 111, 0.97)
+	color:rgba(41, 22, 111, 0.97);
+	width:-webkit-fill-available;
 
 
 }
 
 
 #about{
-	text-align:right;
+	
 	font-weight:300;
 	font-size:large;
 	text-decoration:none;
 	letter-spacing: 4px;
 	color:#3A3051;
 	font-family:'Inder', sans-serif;
-	padding-left:70%;
-	margin-left: 25%;
+	padding-left:%;
+	margin-left:inherit;
 
 }
 
@@ -73,8 +72,8 @@ font-family: 'Roboto', sans-serif;
 	letter-spacing:4px;
 	color:#3A3051;
 	font-family:'Inder', sans-serif;
-	padding-left:70%;
-	margin-left:19%;
+	margin-left:inherit;
+	margin-right:10%;
 	
 
 }
@@ -310,6 +309,7 @@ textarea {
 	margin:inherit;
 	text-align:initial;
 	width:fit-content;
-	font-family:'inder'
+	font-family:'inder';
+	
 	
 }
