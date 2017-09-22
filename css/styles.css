@@ -10,10 +10,14 @@ font-family: 'Roboto', sans-serif;
  */
 
 
-body{
+
+
+ body{
 	color: #3A3051;
 	font-weight: 300; /*  inherited properties */
 	text-align:center;
+	height:100%;
+	margin:0;
 
 }
 
@@ -46,6 +50,7 @@ body{
 
 }
 
+
 #about{
 	text-align:right;
 	font-weight:300;
@@ -54,8 +59,8 @@ body{
 	letter-spacing: 4px;
 	color:#3A3051;
 	font-family:'Inder', sans-serif;
-	padding-left:70px;
-	margin-left: 90px;
+	padding-left:70%;
+	margin-left: 25%;
 
 }
 
@@ -68,10 +73,12 @@ body{
 	letter-spacing:4px;
 	color:#3A3051;
 	font-family:'Inder', sans-serif;
-	padding-left: 90px;
+	padding-left:70%;
+	margin-left:19%;
 	
 
 }
+
 
 #nav li {
 	display:flex;
@@ -90,7 +97,7 @@ h1 {
 h2, h3, h4{
 	font-family:'open sans', sans-serif;
 	font-weight:300;
-	;
+	position:inherit;
 
 }
 
@@ -99,20 +106,23 @@ p {
 	font-family:'Open sans' sans-serif;
 	font-weight:300;
 	font-size: large;
+	position:inherit;
 	
 }
 	
 
 #page1 {
+
 	height:100%;
 	padding-top:10%;
 	background-color:rgba(241, 222, 222, 0.66);
 	width:100%;
 }
 
-#page2{
+#page2 {
+
 	height:100%;
-	padding-top:15%;
+	padding-top:13%;
 	background-color:rgba(241, 222, 222, 0.55);
 	width:100%;
 	
@@ -122,39 +132,39 @@ p {
 
 	
 #page3 {
+	
 	heigh:100%;
 	padding-top:15%;
 	background-color:rgb(251, 245, 245);
 	width:100%;
-	
-	
+
+}
+
+#mainimage {
+	width:78%;
+	height:50%;
+	margin-left:10%;
+	position:inherit;
+
 }
 
 #intro {
 	
+	position: inherit;
+	text-align: center;
+
+
 
 }
 
-#music {
-	
-}
 
-
-
-#mainimage {
+iframe{
 	position:inherit;
-	width: 100%;
-	padding-top:inherit;
-	margin-top:inherit;
-}
-
-
-div .intro {
-	position:relative;
-	display: inline-flex;
-	text-align:left;
+	padding-bottom:15%;
 	
 }
+
+
 
 /*  Contact Form CSS */
 
@@ -166,7 +176,7 @@ div .intro {
   border-radius: 5px;
   box-shadow:0px 7px 10px rgba(183, 180, 180, 0.87);
   -webkit-box-shadow:0px 7px 10px rgba(183, 180, 180, 0.87);
-  margin-bottom: 7%;
+  margin-bottom: 6%;
 }
 
 .message, .contact, .name, textarea  {
@@ -245,46 +255,61 @@ textarea {
 /* Footer*/
 
 .footer {
-	display:inherit;
-	position:fixed;
+	display:block;
 	background-color: white;
-	height:15%;
 	width:100%;
-	padding-top: 20px;
-	padding-bottom:15px;
-	box-shadow: 0px 0px 5px rgba(128, 128, 128, 0.05);
 	text-decoration:none;
+	height:50px;
+	margin:0;
+
 }
 
 
 /*  FONT AWESOME ICONS*/
 
 
-small {
-	font-family: 'inder';
-	display:inherit;
-	margin:10px;
-	float:left;
-}
-
-
 
 .fa-behance {
-	margin: 10px;
+	margin: auto;
 	position:inherit;
 	float:right;
+	color:#3A3051;
+	font-size:larger;
+	padding-right:7%;
+	
+	
 }
 
 .fa-github {
-	margin:10px;
+	margin:auto;
 	position:inherit;
 	float:right;
+	color: #3A3051;;
+	font-size:larger;
+	padding-right:9%;
+	
 }
 
 
-.fa-pinterest {
-	margin:10px;
+.fa-pinterest-p {
+	margin:auto;
 	position:inherit;
 	float:right;
+    color: #3A3051;
+    font-size:larger;
+    padding-right:7%;
+    width:max-content;
+  
+    
 
+}
+
+.made {
+	
+	float:left;
+	margin:inherit;
+	text-align:initial;
+	width:fit-content;
+	font-family:'inder'
+	
 }
