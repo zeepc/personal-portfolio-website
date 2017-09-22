@@ -104,7 +104,8 @@ p {
 	
 
 #page1 {
-	height: 100%;
+	height:100%;
+	padding-top:10%;
 	background-color:rgba(241, 222, 222, 0.66);
 	width:100%;
 }
@@ -143,11 +144,8 @@ p {
 #mainimage {
 	position:inherit;
 	width: 100%;
-	padding-top:12%;
-	margin-top:5%;
-	
-
-
+	padding-top:inherit;
+	margin-top:inherit;
 }
 
 
@@ -158,7 +156,7 @@ div .intro {
 	
 }
 
-/*  Contacct Form CSS */
+/*  Contact Form CSS */
 
 .hello {
   width: 600px;
@@ -250,7 +248,7 @@ textarea {
 	display:inherit;
 	position:fixed;
 	background-color: white;
-	height: 70px;
+	height:15%;
 	width:100%;
 	padding-top: 20px;
 	padding-bottom:15px;
@@ -262,29 +260,30 @@ textarea {
 /*  FONT AWESOME ICONS*/
 
 
-.fa-li {
-
+small {
+	font-family: 'inder';
 	display:inherit;
-    font-size:30px;
-    margin:inherit;
-
+	margin:10px;
+	float:left;
 }
 
+
+
 .fa-behance {
-	margin: 40px;
+	margin: 10px;
 	position:inherit;
 	float:right;
 }
 
 .fa-github {
-	margin:40px;
+	margin:10px;
 	position:inherit;
 	float:right;
 }
 
 
 .fa-pinterest {
-	margin:40px;
+	margin:10px;
 	position:inherit;
 	float:right;
 
